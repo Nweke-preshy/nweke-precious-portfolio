@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nweke Precious | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header, section, footer {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      text-align: center;
+    }
+    .profile-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .profile-photo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #fff;
+    }
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+    nav {
+      margin-top: 1.5rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #4CAF50;
+    }
+    section {
+      background: #fff;
+      margin: 2rem auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+      color: #333;
+    }
+    ul {
+      line-height: 1.8;
+      padding-left: 1.2rem;
+    }
+    .project-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+    .project-item {
+      padding: 1.2rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .project-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    blockquote {
+      font-style: italic;
+      padding: 1.5rem;
+      background: #f9f9f9;
+      border-left: 4px solid #4CAF50;
+      margin: 1.5rem 0;
+    }
+    blockquote footer {
+      margin-top: 1rem;
+      font-style: normal;
+      font-weight: bold;
+      color: #555;
+    }
+    #contact a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+    #contact a:hover {
+      text-decoration: underline;
+    }
+    #contact-form {
+      display: grid;
+      gap: 1rem;
+      max-width: 500px;
+      margin-top: 1.5rem;
+    }
+    #contact-form input, 
+    #contact-form textarea {
+      padding: 0.8rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-family: Arial, sans-serif;
+    }
+    #contact-form textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+    #contact-form button {
+      background: #4CAF50;
+      color: white;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    #contact-form button:hover {
+      background: #45a049;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      padding: 2rem;
+    }
+    @media (max-width: 600px) {
+      .profile-header {
+        flex-direction: column;
+        text-align: center;
+      }
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="profile-header">
+      <img src="https://via.placeholder.com/150" alt="Nweke Precious" class="profile-photo">
+      <div>
+        <h1>Nweke Precious E.</h1>
+        <p>Creative Visionary | Electrical Engineer | Real Estate Entrepreneur</p>
+      </div>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm Nweke Precious, a vibrant young visionary from Lagos with a deep passion for building, creating, and inspiring. Currently studying Electrical Engineering at YABATECH, I blend technical knowledge with creative expertise in media and real estate. I believe in excellence, innovation, and impact — using my gifts to transform lives and ignite purpose in my generation.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills & Tools</h2>
+    <ul>
+      <li><strong>Technical:</strong> Electrical Systems, Circuit Design, AutoCAD (basic)</li>
+      <li><strong>Creative:</strong> Adobe Premiere Pro, Adobe Photoshop, CapCut, Photography, Video Editing, Drama Acting</li>
+      <li><strong>Business:</strong> Real Estate Consulting, Client Management, Marketing, Strategy</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Here are a few highlights of the work I've done:</p>
+    <div class="project-gallery">
+      <div class="project-item">
+        <h3>Church Drama Production</h3>
+        <p>Directed and edited several inspirational drama productions and skits for church events.</p>
+      </div>
+      <div class="project-item">
+        <h3>Real Estate Listings</h3>
+        <p>Managed client property listings and marketing under Zion Realty and Properties.</p>
+      </div>
+      <div class="project-item">
+        <h3>Brand Promotions</h3>
+        <p>Designed promotional graphics and short reels for local brands and businesses.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>Yaba College of Technology – ND in Electrical Engineering (In Progress)</li>
+      <li>Government Technical College, Ikeja – Technical Training Certificate</li>
+      <li>Ikosi High School, Ketu – WAEC</li>
+    </ul>
+  </section>
+
+  <section id="testimonials">
+    <h2>What People Say</h2>
+    <blockquote>
+      "Precious brings exceptional creativity and dedication to every project. His video editing skills transformed our church productions."
+      <footer>- Pastor James, RCCG</footer>
+    </blockquote>
+    <blockquote>
+      "Working with Precious on our real estate listings was a game-changer. His marketing approach brought us more qualified leads."
+      <footer>- Mrs. Adebayo, Zion Realty</footer>
+    </blockquote>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 Email: nwekepreshy@gmail.com</p>
+    <p>📞 Phone: +234-9058335669, -9037241255</p>
+    <p>📱 Instagram: @enso.magdoso</p>
+    <p>📍 WhatsApp Business: <a href="https://wa.me/2349058335669">Click to Chat</a></p>
+    
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>"I was born to make a difference, and my presence must always leave a mark of purpose, excellence, and light."</p>
+    <p>&copy; 2025 Nweke Precious. All rights reserved.</p>
+  </footer>
+</body>
+</html>

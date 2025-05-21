@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nweke Precious | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          animation: {
+            'fade-in-up': 'fadeInUp 0.8s ease-out',
+          },
+          keyframes: {
+            fadeInUp: {
+              '0%': { opacity: '0', transform: 'translateY(20px)' },
+              '100%': { opacity: '1', transform: 'translateY(0)' },
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-black text-white py-10 px-4 shadow-md">
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="flex items-center gap-4">
+        <img src="https://via.placeholder.com/120" alt="Nweke Precious" class="w-28 h-28 rounded-full border-4 border-white shadow-lg" />
+        <div>
+          <h1 class="text-3xl font-bold">Nweke Precious E.</h1>
+          <p class="text-green-400 text-sm">Creative Visionary | Electrical Engineer | Realtor</p>
+        </div>
+      </div>
+      <nav class="flex flex-wrap gap-4 text-sm font-semibold">
+        <a href="#about" class="hover:text-green-400">About</a>
+        <a href="#skills" class="hover:text-green-400">Skills</a>
+        <a href="#projects" class="hover:text-green-400">Projects</a>
+        <a href="#education" class="hover:text-green-400">Education</a>
+        <a href="#contact" class="hover:text-green-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="py-16 px-4 bg-white animate-fade-in-up">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-4">About Me</h2>
+      <p class="text-lg">I'm Nweke Precious, a vibrant Lagos-based innovator studying Electrical Engineering at YABATECH. I mix technology, creativity, and business purpose to build projects that transform lives — through real estate, media, and storytelling.</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-16 px-4 bg-gray-50">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold mb-6 text-center">Skills & Tools</h2>
+      <ul class="space-y-4 text-lg">
+        <li><strong>Technical:</strong> Electrical Systems, Circuit Design, AutoCAD (basic)</li>
+        <li><strong>Creative:</strong> Adobe Premiere Pro, Adobe Photoshop, CapCut, Photography, Video Editing, Drama Acting</li>
+        <li><strong>Business:</strong> Real Estate Consulting, Client Management, Strategy, Marketing</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 px-4 bg-white">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-2xl font-bold mb-6 text-center">My Projects</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h3 class="font-bold text-lg mb-2">Church Drama Production</h3>
+          <p>Directed and edited inspirational drama for church events and outreaches.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h3 class="font-bold text-lg mb-2">Real Estate Listings</h3>
+          <p>Managed client properties and promoted them under Zion Realty & Properties.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h3 class="font-bold text-lg mb-2">Brand Promotions</h3>
+          <p>Created promotional graphics and video reels for small businesses and events.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="py-16 px-4 bg-gray-50">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold mb-6 text-center">Education</h2>
+      <ul class="text-lg list-disc list-inside space-y-3">
+        <li>Yaba College of Technology – ND in Electrical Engineering (In Progress)</li>
+        <li>Government Technical College, Ikeja – Technical Training Certificate</li>
+        <li>Ikosi High School, Ketu – WAEC</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 px-4 bg-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+      <p class="mb-4 text-lg">📧 Email: <a href="mailto:nwekepreshy@gmail.com" class="text-green-600">nwekepreshy@gmail.com</a></p>
+      <p class="mb-4 text-lg">📞 Phone: +234-9058335669 | +234-9037241255</p>
+      <p class="mb-4 text-lg">📱 Instagram: <a href="https://instagram.com/enso.magdoso" class="text-green-600">@enso.magdoso</a></p>
+      <p class="mb-6 text-lg">📍 WhatsApp: <a href="https://wa.me/2349058335669" class="text-green-600">Click to Chat</a></p>
+
+      <form class="grid gap-4 max-w-md mx-auto mt-6">
+        <input type="text" placeholder="Your Name" required class="p-3 border border-gray-300 rounded" />
+        <input type="email" placeholder="Your Email" required class="p-3 border border-gray-300 rounded" />
+        <textarea placeholder="Your Message" required class="p-3 border border-gray-300 rounded h-32 resize-y"></textarea>
+        <button type="submit" class="bg-green-600 text-white py-2 rounded hover:bg-green-700 font-bold">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-10 bg-black text-white">
+    <p class="italic mb-2">"I was born to make a difference. My presence must leave a mark of purpose, excellence, and light."</p>
+    <p>&copy; 2025 Nweke Precious. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
